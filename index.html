@@ -10,26 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body class="bg-body text-white font-popins pb-12">
+<body class="bg-white text-white font-popins pb-12">
     <header class="py-6">
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <div class="text-lg font-bold">Ruqahs.riada</div>
+            <div class="text-lg font-bold text-black">Ruqahs.riada</div>
             <div class="hidden md:flex space-x-12 items-center">
-                <a href="#" class="text-selected-text ">Home</a>
-                <a href="#skills">Skills</a>
-                <a href="#Education">Education</a>
+                <a href="#" class="text-blue-600 ">Home</a>
+                <a href="#skills" class="text-black">Skills</a>
+                <a href="#Education" class="text-black">Education</a>
                 <a href="#Contact"><button class="px-6 py-2 bg-blue-600 font-bold">Contact</button> </a>
             </div>
             <div class="md:hidden">
-                <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.75 4.25H13.25M2.75 12.25H13.25H2.75ZM2.75 8.25H13.25H2.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>                    
+                <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.75 4.25H13.25M2.75 12.25H13.25H2.75ZM2.75 8.25H13.25H2.75Z" stroke="blue" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>                    
             </div>
         </div>
     </header>
 
     <div class="container mt-16 flex justify-between mx-auto px-8 md:px-14 lg:px-24 w-full">
         <div class="flex flex-wrap md:flex-nowrap">
-            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage  xl:block">
-                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-37">
+            <nav class="inline-block md:mr-16 hidden  lg:mr-24 lg:w-4 fixed left-percentage lg:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
                     <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
                     </a>
@@ -45,7 +45,15 @@
                 </div>
             </nav>
 
-            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"></div>
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left text-black">Designer <span class="text-blue-600">/</span> <br> Developer </h1>
+                <div class="w-full flex justify-center md:justify-start">
+                    <a href="#Contact"><button class="px-8 py-4 bg-blue-600 text-white font-bold mt-12 flex items-center space-x-3 ">Portfolio</button> </a>
+                </div>
+                
+            </div>
+
+            <img src="img/background.png" alt="" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1">
         </div>
     </div>
 </body>
