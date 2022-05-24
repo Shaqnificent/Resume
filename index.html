@@ -13,7 +13,7 @@
 <body class="bg-white text-white font-popins pb-12">
     <header class="py-6">
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-            <div class="text-lg font-bold text-black">Ruqahs.riada</div>
+            <div class="text-lg lg:ml-20 font-bold text-black ">Ruqahs.riada</div>
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="text-blue-600 ">Home</a>
                 <a href="#skills" class="text-black">Skills</a>
@@ -26,9 +26,9 @@
         </div>
     </header>
 
-    <div class="container mt-16 flex justify-between mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div class="container mt-16 flex justify-between mx-auto px-8 md:px-14 lg:px-24 w-full ">
         <div class="flex flex-wrap md:flex-nowrap">
-            <nav class="inline-block md:mr-16 hidden  lg:mr-24 lg:w-4 fixed left-percentage lg:block">
+            <nav class="md:mr-16 hidden  lg:mr-24 lg:w-4 fixed left-percentage lg:block">
                 <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
                     <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
@@ -45,22 +45,37 @@
                 </div>
             </nav>
 
-            <div class="flex ">
-                <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left text-black">Designer <span class="text-blue-600 md:text-2xl">/</span> <span class="inline md:block">Developer</span>  </h1>
-                    <div class="w-full flex justify-center md:justify-start">
+            <div class="flex">
+                <div class="flex flex-wrap items-center jus lg:ml-20 md:justify-center max-w-xl mt-0 ">
+                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-left md:text-left text-black">Designer <span class=" text-blue-600 md:text-6xl hidden sm:text-2xl">/</span> <span class="inline">Developer</span>  </h1>
+                    <div class="w-full flex items-center md:justify-start">
                         <a href="#Contact"><button class="px-8 py-4 bg-blue-600 text-white font-bold mt-12 flex items-center space-x-3 ">Portfolio</button> </a>
                     </div>
                     
                 </div>
-                <div class="hidden md:block">
-                    <img src="img/background.png" alt="" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1">
+                <div class="lg:block">
+                    <img src="img/background.png" alt="" class=" mt-12  md:mt-0 right-0 -z-1 ">
+                    <div class=" section-divide "></div>
                 </div>
-            </div>
-            
-
-            
+            </div> 
         </div>
+        
     </div>
+
+    <!-- My work -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 my-auto md:px-14 lg:ml-20 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="work" class="secondary-title text-black">SKills</h2>
+				
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+					<img src="https://www.html5rocks.com/static/demos/svgmobile_fundamentals/images/html5-1920x1200.png" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					<img src="https://cdn.freebiesupply.com/logos/thumbs/2x/css3-logo.png" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					<img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					<img src="https://miro.medium.com/max/870/1*l9IZ_LeUCP_vwxjDKI2Xgw.jpeg" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					
+                </div>
+			</section>
+		</div>
+
 </body>
 </html>
