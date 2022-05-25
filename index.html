@@ -17,8 +17,8 @@
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="text-blue-600 ">Home</a>
                 <a href="#skills" class="text-black">Skills</a>
-                <a href="#Education" class="text-black">Education</a>
-                <a href="#Contact"><button class="px-6 py-2 bg-blue-600 font-bold">Contact</button> </a>
+                <a href="#education" class="text-black">Education</a>
+                <a href="#contact"><button class="px-6 py-2 bg-blue-600 font-bold">Contact</button> </a>
             </div>
             <div class="md:hidden">
                 <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.75 4.25H13.25M2.75 12.25H13.25H2.75ZM2.75 8.25H13.25H2.75Z" stroke="blue" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>                    
@@ -33,13 +33,13 @@
                     <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
                     </a>
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                    <a href="#skills" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
                     </a>
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                    <a href="#education" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Education</span>
                     </a>
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                    <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                         <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
                     </a>
                 </div>
@@ -49,7 +49,7 @@
                 <div class="flex flex-wrap items-center lg:ml-20 md:justify-center max-w-xl mt-0 ">
                     <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-left md:text-left text-black">Designer <span class=" text-blue-600 md:text-6xl hidden sm:text-2xl">/</span> <span class="inline">Developer</span>  </h1>
                     <div class="w-full flex items-center md:justify-start">
-                        <a href="#Contact"><button class="px-8 py-4 bg-blue-600 text-white font-bold mt-12 flex items-center space-x-3 ">Portfolio</button> </a>
+                        <a href="#contact"><button class="px-8 py-4 bg-blue-600 text-white font-bold mt-12 flex items-center space-x-3 ">Portfolio</button> </a>
                     </div>
                     
                 </div>
@@ -65,7 +65,7 @@
     <!-- My Skills -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 my-auto md:px-14  lg:px-24 w-full ">
 			<section class="lg:ml-20 w-full">
-				<h2 id="work" class="secondary-title text-black">SKills</h2>
+				<h2 id="skills" class="secondary-title text-black">Skills</h2>
 				<!-- <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"> -->
 				<div class="flex flex-wrap gap-3 lg:justify-between justify-center  mt-10 items-center w-full">
                     <div class="bg-black w-64 rounded-xl">
@@ -101,7 +101,7 @@
         <!-- School -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full lg:ml-20">
-				<h2 id="clients" class="secondary-title text-black">Education</h2>
+				<h2 id="education" class="secondary-title text-black">Education</h2>
 
 				<div class="space-y-12 my-16">
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
@@ -160,5 +160,42 @@
 
 			</section>
 		</div>
+
+        	
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full items-center lg:ml-20">
+				<h2 id="contact" class="secondary-title text-black">Contact</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<div class="space-y-12">
+						<div>
+							<label class="text-black block mb-6 text-xl font-bold">Name</label>
+							<input class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-black block mb-6 text-xl font-bold">Email</label>
+							<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-black block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+					</div>
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">876-582-9941</p>
+						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">shaqnificent@gmail.com</a>
+
+				
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+        <script src="main.js"></script>
 </body>
 </html>
