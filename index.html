@@ -20,8 +20,14 @@
                 <a href="#education" class="text-black">Education</a>
                 <a href="#contact"><button class="px-6 py-2 bg-blue-600 font-bold">Contact</button> </a>
             </div>
-            <div class="md:hidden">
-                <svg width="30" height="30" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.75 4.25H13.25M2.75 12.25H13.25H2.75ZM2.75 8.25H13.25H2.75Z" stroke="blue" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>                    
+            <div class="md:hidden dropdown">
+                <button onclick="myFunction()" class="px-5 py-1 bg-blue-600 font-bold text-2xl dropbtn">=</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </div>
         </div>
     </header>
@@ -47,7 +53,7 @@
 
             <div class="flex">
                 <div class="flex flex-wrap items-center lg:ml-20 md:justify-center max-w-xl mt-0 ">
-                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-left md:text-left text-black">Designer <span class=" text-blue-600 md:text-6xl hidden sm:text-2xl">/</span> <span class="inline">Developer</span>  </h1>
+                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-left md:text-left text-black"><span class="text-blue-600">D</span>esigner <span class=" text-blue-600 md:text-6xl hidden sm:text-2xl">/</span> <span class="inline"><span class="text-blue-600">D</span>eveloper</span>  </h1>
                     <div class="w-full flex items-center md:justify-start">
                         <a href="#contact"><button class="px-8 py-4 bg-blue-600 text-white font-bold mt-12 flex items-center space-x-3 ">Portfolio</button> </a>
                     </div>
