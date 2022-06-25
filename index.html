@@ -9,7 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="icon" type="image/x-icon" href="img/skills/html.png">
+    <style>
+        .md-60 {
+            font-size: 60px !important;
+        }
+    </style>
 </head>
 <body class="bg-white text-white font-popins pb-12 mx-auto">
     <header class="py-6">
@@ -74,7 +80,7 @@
 			<section class="lg:ml-20 w-full">
 				<h2 id="skills" class="secondary-title text-black">Skills</h2>
 				<!-- <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap"> -->
-				<div class="flex flex-wrap gap-3 lg:justify-between justify-center  mt-10 items-center w-full">
+				<div class="flex flex-wrap gap-1 lg:justify-between justify-center  mt-10 items-center w-full">
                     <div class="bg-black w-64 rounded-xl">
                         <div class="flex justify-center">
                             <img src="./img/skills/html.png" class=" ">
@@ -174,33 +180,26 @@
 				<h2 id="contact" class="secondary-title text-black">Contact</h2>
 				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
 
-				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-                    <form action="https://formsubmit.co/21ddd9f917e9372af3721cf2d6785a89" method="post" enctype="multipart/form-data">
-                        <div class="space-y-12">
-                            <div>
-                                <label class="text-black block mb-6 text-xl font-bold">Name</label>
-                                <input class="w-full border border-input-border bg-input px-4 py-4">
-                            </div>
-                            <div>
-                                <label class="text-black block mb-6 text-xl font-bold">Email</label>
-                                <input type="email" class="w-full border border-input-border bg-input px-4 py-4">
-                            </div>
-                            <div>
-                                <label class="text-black block mb-6 text-xl font-bold">Message</label>
-                                <textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
-                            </div>
-                            <button class="px-6 py-2 bg-theme text-white font-bold" type="submit">Send it!</button>
+				<div class="w-full h-full flex text-black  rounded-lg font-bold flex-col sm:flex-row justify-center items-center">
+                    <div class="w-60 h-60 flex bg-black flex-col items-center m-2 rounded-lg">
+                        <div class="w-full h-4/5  flex items-center text-white  hover:text-blue-600 justify-center">
+                            <span class="material-symbols-outlined md-60 ">call</span>
                         </div>
-    
-                    </form>
-					
-					<div class="mt-12">
-						<!-- Contact info -->
-						<p class="text-secondary">876-582-9941</p>
-						<a href="mailto:shaqnificent@gmail.com" class="text-secondary underline mt-3 block">shaqnificent@gmail.com</a>
-
-				
-					</div>
+                        <div class="w-full h-1/5 flex items-center justify-center bg-blue-600">
+                            <span class="text-white">(876) 582-9941</span>
+                        </div>
+                    </div>
+                    
+                    <div class="w-60 h-60 flex bg-black flex-col items-center m-2 rounded-lg">
+                        <div class="w-full h-4/5  flex items-center text-white  hover:text-blue-600 justify-center">
+                            <span class="material-symbols-outlined md-60 ">mark_email_unread</span>
+                        </div>
+                        <div class="w-full h-1/5 flex items-center justify-center bg-blue-600">
+                            <span class="text-white">Shaqnificent@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    
 					
 				</div>
 
